@@ -13,6 +13,11 @@
             width: 500px;
         }
 
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
         caption{
             font-size: 1.5em;
             font-weight: bold;
@@ -20,14 +25,13 @@
             background-color: lightgrey;
         }
 
-        td,th{
-            border: 1px solid black;
-            padding: 10px;
-        }
-
         thead,tfoot{
             background-color: gray;
             color:white ;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: rgb(199, 185, 185);
         }
 
         td.num{
